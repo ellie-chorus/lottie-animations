@@ -1,6 +1,6 @@
 let player = document.getElementById("firstLottie");
 
-player.addEventListener("ready", () => {
+player.addEventListener("DOMContentLoaded", () => {
   LottieInteractivity.create({
 			  mode:"scroll",
 			  player: "#firstLottie",
